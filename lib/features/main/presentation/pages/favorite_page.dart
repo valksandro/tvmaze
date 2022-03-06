@@ -55,6 +55,15 @@ class _FavoritePageState extends State<FavoritePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        automaticallyImplyLeading: false,
+        backgroundColor: const Color(0xFF070D2D),
+        title: const Text(
+          'Favorite',
+          style: TextStyle(color: Colors.white),
+        ),
+      ),
       backgroundColor: const Color(0xFF070D2D),
       body: Container(
           padding: const EdgeInsets.only(top: 30, bottom: 10),
