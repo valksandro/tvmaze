@@ -46,6 +46,6 @@ flutter run
 
 # Apk file for real devices
 
-- Folder [apk folder](https://github.com/valksandro/tvmaze/blob/main/dist)
+- Folder [apk folder](https://github.com/valksandro/tvmaze/tree/main/dist)
 - For Real devices you can download and install this file `app-release.apk`.  
 
